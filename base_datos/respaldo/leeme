@@ -1,1 +1,4 @@
-
+Respaldos de la base de datos (datos de prueba ficticios).
+- enph_respaldo.sql: estructura y datos en texto. Se ejecuta con @enph_respaldo.sql en SQL*Plus.
+- enph_respaldo.dmp: exportación binaria de Oracle XE (usuario ADMIN_ENPH). Se restaura con imp.
+El script oficial de creación es ../01_esquema_enph.sql
