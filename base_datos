@@ -1,8 +1,0 @@
-cd proyecto-integrador-enph
-git pull
-mkdir base_datos\respaldo
-copy C:\enph\enph_respaldo.sql base_datos\respaldo\
-copy C:\enph\enph_respaldo.dmp base_datos\respaldo\
-git add .
-git commit -m "Agrega respaldo de la base de datos"
-git push
